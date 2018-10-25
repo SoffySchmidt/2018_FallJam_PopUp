@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - background
+  - interactive
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: popuplayer 3
     uniqueID: 1584415409
+    locked: 0
+  - name: player
+    uniqueID: 3417829659
     locked: 0
