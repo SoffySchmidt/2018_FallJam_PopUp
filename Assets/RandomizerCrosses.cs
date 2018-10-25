@@ -10,17 +10,27 @@ public class RandomizerCrosses : MonoBehaviour
     int index;
     public GameObject backCanvas;
 
+    float _t;
 
     private void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Popup();
         }
+
+        _t += Time.deltaTime;
+
+        if (_t >= 1f)
+        {
+            Popup();
+            _t = 0f;
+        }
+
     }
 
 
-    void Popup()
+    public void Popup()
     {
 
 

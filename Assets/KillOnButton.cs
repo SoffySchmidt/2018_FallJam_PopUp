@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class KillOnButton : MonoBehaviour {
 
     Image img;
-    public Image One;
-    public Image Two;
+    public Sprite one;
+    public Sprite two;
 
     float _t = 0f;
 
@@ -27,16 +27,16 @@ public class KillOnButton : MonoBehaviour {
 
         _t += Time.deltaTime;
 
-        if (_t >= 0.5f)
+        if (_t >= 0.3f)
         {
-            if (img == One)
+            if (img.sprite == one)
             {
-                img = Two;
+                img.sprite = two;
                 _t = 0f;
             }
             else
             {
-                img = One;
+                img.sprite = one;
                 _t = 0f;
             }
 
