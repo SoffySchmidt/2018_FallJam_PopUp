@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 3519358813
+    locked: 0
+  - name: popup layer 1
+    uniqueID: 1738532493
+    locked: 0
+  - name: popup layer 2
+    uniqueID: 3588659345
+    locked: 0
+  - name: popuplayer 3
+    uniqueID: 1584415409
+    locked: 0
