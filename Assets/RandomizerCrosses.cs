@@ -34,7 +34,7 @@ public class RandomizerCrosses : MonoBehaviour
         //spawned.transform.position = new Vector3(Random.value, Random.value, 0);
 
 
-        GameObject spawned = Instantiate(currentPoint, new Vector3(Random.Range(-7.0f, 7.0f), Random.Range(-4.0f, 4.0f)), Quaternion.identity);
+        GameObject spawned = Instantiate(currentPoint, new Vector3(Random.Range(0f, 1000.0f), Random.Range(0f, 400.0f)), Quaternion.identity);
         spawned.transform.parent = backCanvas.transform;
 
         //currentPoint.transform.parent = Back_Canvas.transform;
